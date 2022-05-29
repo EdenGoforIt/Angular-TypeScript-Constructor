@@ -4,6 +4,7 @@ import { EmployeeTwo } from './models/employee-two';
 import { EmployeeThree } from './models/employee-three';
 import { EmployeeFour } from './models/employee-four';
 import { EmployeeFive } from './models/employee-five';
+import { EmployeeSix } from './models/employee-six';
 
 @Component({
   selector: 'my-app',
@@ -16,4 +17,5 @@ export class AppComponent {
   employeeThree = new EmployeeThree({ code: 1, name: 'Three' });
   employeeFour = new EmployeeFour({ code: 1, name: 'Four' });
   employeeFive = new EmployeeFive({ code: 1, name: 'Five' });
+  employeeSix = new EmployeeSix({ code: 1, name: 'six' });
 }
